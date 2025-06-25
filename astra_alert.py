@@ -8,7 +8,7 @@ from threading import Thread
 # CONFIGURATION
 URL = "https://www.mobile.bg/obiavi/avtomobili-dzhipove/opel/astra/dizelov/ot-2018/do-2021?price1=7350&currency=EUR&km=150000"
 TELEGRAM_TOKEN = "8140801114:AAG57jEzy0T4-GzRk3jtV2xFgpbyEq7Wu2g"
-CHAT_ID = "1660290308"
+chat_id = -4939922320
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 seen_ads = set()
